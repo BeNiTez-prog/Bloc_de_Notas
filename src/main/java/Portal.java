@@ -200,6 +200,7 @@ public class Portal extends JFrame {
             }
             showProgressBarAndExecute("Registro para '" + campoUsuario.getText() + "' exitoso.");
         });
+        
 
         panelPrincipal.add(botonRegistro);
         return panelPrincipal;
